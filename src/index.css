@@ -70,3 +70,27 @@ button{
   border-radius: 5px;
   color: white;
 }
+
+@media screen and (max-width:680px){
+    input{
+    font-size: 20px;
+    width: 100%;
+    min-width: 100px;
+    padding: 5px;
+  }
+  button{
+    background-color: purple;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  div.task p {
+    width: 50%;
+   } 
+   .task-icons{
+    width: 50%;
+  }
+  div.green p {
+    width: 50%;
+  }
+}
